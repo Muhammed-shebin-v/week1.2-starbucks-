@@ -1,0 +1,650 @@
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+.home {
+    width: 425px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    left: 190px;
+    display: inline;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 47px;
+
+}
+
+.search {
+    width: 260px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 220px;
+    top: 16px;
+    display: flex;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border: none;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 8px;
+    left: 16px;
+
+
+}
+
+.searchinput {
+    width: 205px;
+    font-size: 12px;
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    background-color: transparent;
+    position: relative;
+    left: 15px;
+    outline: none;
+    border: none;
+
+
+}
+
+.user {
+    width: 30px;
+    height: 30px;
+    background-image: url(account_thin.svg);
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    right: 90px;
+    top: 25px;
+
+}
+
+.nav2 {
+    width: 100%;
+    height: 80px;
+    background: #002e1d;
+    margin: 0;
+}
+
+.cool {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 82px;
+    top: 11px;
+    float: left;
+
+
+}
+
+.btnknow {
+    width: 100px;
+    height: 33px;
+    border-radius: 50px;
+    border-color: antiquewhite;
+    background-color: transparent;
+    position: absolute;
+    right: 110px;
+    margin-top: 23px;
+    border-width: 1px;
+    color: white;
+    font-size: 13px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+
+}
+
+.page1 {
+    width: 100%;
+    height: 590px;
+
+}
+
+.menu {
+    width: 1320px;
+    height: 220px;
+    background: #016a43;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    border-radius: 8px;
+
+
+
+}
+
+.picmenu {
+    width: 95px;
+    height: 240px;
+    position: relative;
+    float: left;
+    background-image: url(picmenu.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.strmenu {
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    top: 25px;
+    left: 65px;
+    width: 600px;
+
+
+
+}
+
+.menuprice {
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    line-height: 6px;
+    position: relative;
+    top: 50px;
+    left: 65px;
+    float: left;
+}
+
+.btnorder {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #008655;
+    border-radius: 50px;
+    position: relative;
+    left: 920px;
+    top: 45px;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 13px;
+
+}
+
+.food {
+    width: 100%;
+    height: 165px;
+    margin-top: 90px;
+
+
+
+}
+
+.head1 {
+    width: 280px;
+    height: 30px;
+    margin-left: 90px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+
+.pic {
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 43px;
+    position: relative;
+    top: 30px;
+    border-radius: 50px;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.tag {
+    width: 103px;
+    height: 15px;
+    float: left;
+    position: relative;
+    margin-left: 78px;
+    top: 40px;
+    margin-right: 54px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+
+
+
+}
+
+.page2 {
+    width: 100%;
+    height: 320px;
+    background: #edebe9;
+
+}
+
+.head2 {
+    width: 245px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    margin-top: 25px;
+    left: 75px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+
+.view {
+    width: 70px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    right: 75px;
+    margin-top: 27px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+    font-weight: 500px;
+
+
+}
+
+.picleaf {
+    width: 60px;
+    height: 70px;
+
+    position: absolute;
+    right: 0px;
+}
+
+.picleaf img {
+    width: 100%;
+    height: auto;
+
+}
+
+.product {
+    width: 422px;
+    height: 160px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    position: relative;
+    top: 90px;
+    float: left;
+    margin-left: 80px;
+    margin-right: -55px;
+}
+
+.pic2 {
+    width: 80px;
+    height: 80px;
+
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 25px;
+
+}
+
+.pic2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.veg {
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+
+.veg img {
+    width: 100%;
+    height: auto;
+
+}
+
+.name {
+    width: 200px;
+    height: 50px;
+
+    font-family: "Quicksand", sans-serif;
+    margin-top: 35px;
+    margin-left: 120px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.name2 {
+    color: black;
+    font-size: 8px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    letter-spacing: 0px;
+
+}
+
+.price {
+    width: 80px;
+    height: 20px;
+
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 200px;
+}
+
+.btnadd {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #006d45;
+    border-radius: 50px;
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    font-size: 13px;
+    top: 30px;
+    left: 220px;
+
+
+
+}
+
+.page3 {
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    background: #edebe9;
+}
+
+.head3 {
+    width: 445px;
+    height: 30px;
+
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 70px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    letter-spacing: .5px;
+
+
+}
+
+.discover {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+    top: 5px;
+    left: 1275px;
+    color: rgb(0, 77, 0);
+
+
+
+}
+
+.brewing {
+    width: 1320px;
+    height: 373px;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    background-image: url(brewing.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0px -80px 200px black;
+    border-radius: 8px;
+
+
+}
+
+.coffee {
+    width: 75px;
+    height: 15px;
+    background-color: rgba(231, 240, 231, 0.814);
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: rgb(0, 105, 0);
+    font-size: 10px;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 4px;
+    letter-spacing: .5px;
+    font-weight: 500px;
+
+
+}
+
+.art {
+    width: 540px;
+    height: 60px;
+
+    position: relative;
+    top: 190px;
+    left: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: .5px;
+    line-height: 30px;
+}
+
+.art2 {
+    font-size: 13.5px;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0px;
+
+}
+
+.learn {
+    width: 200px;
+    height: 35px;
+    border-radius: 50px;
+    position: relative;
+    top: 225px;
+    left: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border: none;
+    background-color: white;
+
+}
+
+.page4 {
+    width: 100%;
+    height: 950px;
+    background-color: #0e382c;
+    margin-top: 50px;
+}
+
+.endlogo {
+    width: 60px;
+    height: 60px;
+
+    position: relative;
+    top: 140px;
+    left: 70px;
+}
+
+.endlogo img {
+    width: 100%;
+    height: auto;
+}
+
+.t {
+    width: 210px;
+    height: 499px;
+
+    position: relative;
+    top: 32px;
+    left: 278px;
+    margin-left: 10px;
+
+    float: left;
+    line-height: 50px;
+    font-size: 13.5px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(216, 215, 215);
+    font-weight: 100px;
+}
+
+.t h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+
+}
+
+.spant {
+    position: relative;
+    bottom: 20px;
+}
+
+.media {
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: -403px;
+    left: 950px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(216, 215, 215);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.spic {
+    width: 40px;
+    height: 40px;
+    float: left;
+
+    margin-right: 5px;
+    position: relative;
+    top: 90px;
+    left: 290px;
+}
+
+.spic img {
+    width: 100%;
+    height: auto;
+}
+
+.ios {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    bottom: 410px;
+    left: 1150px;
+
+}
+
+.andro {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    bottom: 340px;
+    left: 1150px;
+}
+
+
+.line {
+    width: 90%;
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    position: relative;
+    bottom: -295px;
+}
+
+.ending {
+    width: 102px;
+    height: 10px;
+    position: relative;
+    top: 320px;
+    left: 10px;
+    margin-left: 60px;
+    margin-right: -30px;
+    float: left;
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.piller {
+    width: 10px;
+    height: 20px;
+    color: white;
+    position: relative;
+    top: 318px;
+    left: -460px;
+    margin-left: 117px;
+    margin-right: 2px;
+    float: left;
+    font-size: 20px;
+}
+
+.copy {
+    width: 308px;
+    height: 20px;
+
+    position: relative;
+    top: 290px;
+    left: 1100px;
+    color: rgb(181, 180, 180);
+    font-family: "Quicksand", sans-serif;
+    font-size: 10px;
+}
